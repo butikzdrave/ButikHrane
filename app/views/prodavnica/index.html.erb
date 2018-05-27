@@ -1,0 +1,401 @@
+<header class="header">
+    <div class="container rel">
+        <div class="header__logo">
+            <div class="header__logo-text">Butik Zdrave Hrane</div>
+        </div>
+
+        <ul class="nav" id="nav">
+            <li class="nav__item  active">
+               <a class="nav__link" href="#home" data-toggle="scroll">Početna</a>
+            </li>
+            <li class="nav__item">
+               <a class="nav__link" href="#limited" data-toggle="scroll">Specijalne ponude</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#catalog" data-toggle="scroll">Katalog</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#delivery_payment" data-toggle="scroll">Dostava &amp; Plačanje</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#guarantee" data-toggle="scroll">Garancija</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#reviews" data-toggle="scroll">Utisci</a>
+            </li>
+        </ul>
+
+        <div class="header__burger" id="burger">
+            <img src="assets/i/bars.svg" width="30" alt="">
+        </div>
+    </div>
+</header>
+<section class="intro" id="home" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="intro__inner text-center">
+        <div class="intro__content text-right">
+            <h1 class="intro__title">BUTIK ZDRAVE HRANE</h1>
+            <div class="intro__text">
+                <p>Je mjesto koje Vam nudi razne vrste začina, ulja, čajeva, koštunjavog i suhog voća, meda i proizvoda od meda.!</p>
+            </div>
+            <div class="intro__btn">
+                <a class="btn  btn--orange  btn--shadow  btn--ellipse  btn--xxl" href="/prodavnica/login">Prijavi se</a>
+            </div>
+        </div>
+    </div>
+
+    <a class="mouse wow fadeIn" href="#limited" data-wow-offset="0" data-wow-delay=".5s" data-toggle="scroll">
+        <div class="mouse__scroll">
+            <div class="mouse__wheel"></div>
+        </div>
+        <span class="mouse__arrows first"></span>
+        <span class="mouse__arrows second"></span>
+        <span class="mouse__arrows third"></span>
+    </a>
+</section>
+
+
+
+<!-- Limited Offers -->
+<section class="block" id="limited">
+    <div class="container">
+
+        <div class="limited-offer" id="offer-expired">
+            <h2>Ova ponuda je prošla!</h2>
+        </div>
+
+        <div class="row" id="limited-offers">
+            <div class="col-xs-12">
+                <h2 class="block__title  block__title--big">POSEBNA PONUDA!</h2>
+                <div class="limited-offer__timer" id="clock"></div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="products">
+                    <div class="products__item wow fadeInDown" itemscope itemtype="http://schema.org/Product">
+                        <div class="products__inner">
+                            <img class="img  products__photo" src="assets/nana.png" alt="" itemprop="image">
+
+                            <h3 class="products__title" itemprop="name">NANA</h3>
+                            <div class="products__price">
+                                Cijena: <del>4 KM</del>
+                                <span itemprop="price" content="3.00">3.00</span><span itemprop="priceCurrency" content="BAM">KM</span>
+                            </div>
+                            <a class="btn  btn--orange  btn--rounded  btn--shadow" href="/prodavnica/placanje">Kupi</a>
+                        </div>
+                    </div>
+
+                    <div class="products__item wow fadeInDown" itemscope itemtype="http://schema.org/Product">
+                        <div class="products__inner">
+                            <img class="img  products__photo" src="assets/bagrem.png" alt="" itemprop="image">
+
+                            <h3 class="products__title" itemprop="name">BAGREMOV MED</h3>
+                            <div class="products__price">
+                                Cijena: <del>20 KM</del>
+                                <span itemprop="price" content="19.00">18</span><span itemprop="priceCurrency" content="BAM">KM</span>
+                            </div>
+                            <a class="btn  btn--orange  btn--rounded  btn--shadow" href="/prodavnica/placanje">Kupi</a>
+                        </div>
+                    </div>
+
+                    <div class="products__item wow fadeInDown" itemscope itemtype="http://schema.org/Product">
+                        <div class="products__inner">
+                            <img class="img  products__photo" src="assets/cmed.png" alt="" itemprop="image">
+
+                            <h3 class="products__title" itemprop="name">LIVADSKI CVIJETNI MED</h3>
+                            <div class="products__price">
+                                Cijena: <del>20 KM</del>
+                                <span itemprop="price" content="18.00">18</span><span itemprop="priceCurrency" content="BAM">KM</span>
+                            </div>
+                            <a class="btn  btn--orange  btn--rounded  btn--shadow" href="/prodavnica/placanje">Kupi</a>
+                        </div>
+                    </div>
+
+                    <div class="products__item wow fadeInDown" itemscope itemtype="http://schema.org/Product">
+                        <div class="products__inner">
+                            <img class="img  products__photo" src="assets/jabukacips.png" alt="" itemprop="image">
+
+                            <h3 class="products__title" itemprop="name">SUHA JABUKA ČIPS</h3>
+                            <div class="products__price">
+                                Cijena: <del>4 KM</del>
+                                <span itemprop="price" content="0.50">0.5</span><span itemprop="priceCurrency" content="BAM">KM</span>
+                            </div>
+                            <a class="btn  btn--orange  btn--rounded  btn--shadow" href="/prodavnica/placanje">Kupi</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="products__item  products__item--big wow fadeInRight" itemscope itemtype="http://schema.org/Product">
+                    <div class="products__inner">
+                        <img class="img  products__photo" src="assets/kamilica.gif" alt="" itemprop="image">
+                        <h3 class="products__title" itemprop="name">KAMILICA CVIJET 40g</h3>
+                        <div class="products__price">
+                            Cijena: <del>4 KM</del>
+                            <span itemprop="price" content="3.00">3.00</span><span itemprop="priceCurrency" content="BAM">KM</span>
+                        </div>
+                        <a class="btn  btn--xl  btn--orange  btn--rounded  btn--shadow" href="/prodavnica/placanje">Kupi</a>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- /.row -->
+
+    </div><!-- /.container -->
+</section><!-- /.block -->
+
+
+
+<!-- Catalog -->
+<section class="block  block--catalog" id="catalog">
+    <div class="block__inner  block__inner--catalog">
+        <div class="container">
+
+            <div class="product" itemscope itemtype="http://schema.org/Product">
+                <div class="product__image">
+                    <img class="img wow fadeInLeft" src="assets/kadulja.png" alt="" itemprop="image">
+                </div>
+                <div class="product__info">
+                    <h3 class="product__title" itemprop="name">MED OD KADULJE</h3>
+                    <div class="product__text" itemprop="description">
+                        <p>Kaduljin med je jedan od kvalitetnijih medova, te je veoma dobar za saniranje svih vrsta oboljenja usne šupljine i dišnih puteva. Med od kadulje se preporučuje ljudima koji imaju problema sa hunjavicom, kašljem, upalom grla, bronhitisom, prehladama koje prate najčešće suh i neproduktivan kašal Pakovanje: 1kg</p>
+                    </div>
+                    <div class="product__price">
+                        Cijena: <del>35 KM</del>
+                        <span itemprop="price" content="20.00">20</span><span itemprop="priceCurrency" content="BAM">KM</span>
+                    </div>
+                    <a class="btn  btn--xl  btn--rounded  btn--shadow  btn--o-yellow" href="/prodavnica/placanje">Kupi</a>
+                </div>
+            </div>
+
+            <div class="product" itemscope itemtype="http://schema.org/Product">
+                <div class="product__image">
+                    <img class="img wow fadeInLeft" src="assets/sljiva.png" alt="" itemprop="image">
+                </div>
+                <div class="product__info">
+                    <h3 class="product__title" itemprop="name">SUHA ŠLJIVA SA KOŠPICOM</h3>
+                    <div class="product__text" itemprop="description">
+                        <p>Suhe šljive ne samo što su ukusne, već su i veoma ljekovite. One zadržavaju sve vrijedne vitamine i minerale tokom procesa sušenja te predstavljaju vrijedan izvor energije u ''malom pakovanju". Desetak suhih šljiva dnevno smanjuje rizik od osteoporoze i prijeloma kostiju. Suhe šljive pomažu urednoj probavi tako što opskrbljuju crijeva jednostavnim šećerima koji privlače tekućinu u crijeva. Redovno konzumiranje suhih šljiva usporava razvoj ateroskleroze, upalne bolesti kardiovaskularnog sistema koja se smatra vodećim uzrokom smrti u današnjem društvu.</p>
+                    </div>
+                    <div class="product__price">
+                        Cijena: <del>8 KM</del>
+                        <span itemprop="price" content="5.00">5</span><span itemprop="priceCurrency" content="BAM">KM</span>
+                    </div>
+                    <a class="btn  btn--xl  btn--rounded  btn--shadow  btn--o-yellow" href="/prodavnica/placanje">Kupi</a>
+                </div>
+            </div>
+
+            <div class="product" itemscope itemtype="http://schema.org/Product">
+                <div class="product__image">
+                    <img class="img wow fadeInLeft" src="assets/brusnica.png" alt="" itemprop="image">
+                </div>
+                <div class="product__info">
+                    <h3 class="product__title" itemprop="name">BRUSNICA</h3>
+                    <div class="product__text" itemprop="description">
+                        <p>Brusnica je bogata vlaknima, antocijanima, proantocijanidinima, beta-karotenom, vitaminom C, kalijem, kalcijem, magnezijem i drugim mikronutrijentima. Najčešće se koristi u liječenju infekcija mokraćnog mjehura uzrokovanih E.coli. Također, se koristi kod: - bakterijskih i gljivičnih infekcija - čira na želucu - bolesti zuba i zubnog mesa - oslabljenog imuniteta - dijabetesa - bolesti oka - kao prevencija kardiovaskularnih bolesti - kao prevencija karcinoma dojke, želuca i debelog crijeva</p>
+                    </div>
+                    <div class="product__price">
+                        Cijena: <del>18 KM</del>
+                        <span itemprop="price" content="14.00">14</span><span itemprop="priceCurrency" content="BAM">KM</span>
+                    </div>
+                    <a class="btn  btn--xl  btn--rounded  btn--shadow  btn--o-yellow" href="/prodavnica/placanje">Kupi</a>
+                </div>
+            </div>
+
+            <div class="product" itemscope itemtype="http://schema.org/Product">
+                <div class="product__image">
+                    <img class="img wow fadeInLeft" src="assets/kanabis.png" alt="" itemprop="image">
+                </div>
+                <div class="product__info">
+                    <h3 class="product__title" itemprop="name">ULJE KONOPLJE 250ML</h3>
+                    <div class="product__text" itemprop="description">
+                        <p>Organsko, hladno cijeđeno, ekstra djevičansko! Sadrži idealan omjer (3:1) omega 6 i 3 esencijalnih masnih kiselina potrebnih za naše zdravlje. Konopljino sjeme je bogat izvor svih 20 aminokiselina, uključujući i 9 esencijalnih koje tijelo ne može proizvesti. Sadrži vitamine A, B1, B2, B3, B6, C, D i E. Savršen omjer omega 6 i omega 3 kiselina štiti od kardiovaskularnih bolesti. Konopljino ulje je najbogatiji poznati izvor polinezasićenih esencijalnih masnih kiselina. Sjemenke konoplje jačaju obrambeni sistem organizma, smanjuju holesterol i štite krvne žile. Konopljino ulje je bogat izvor fitonutrijenata koji štite imunitet, krvne žile, stanice, kožu i mnoge organe. Vrlo lako je probavljivo i ne uzrokuje nadutost i plinove. Konopljino ulje je orašastog okusa i zelene boje.</p>
+                    </div>
+                    <div class="product__price">
+                        Cijena: <del>32 KM</del>
+                        <span itemprop="price" content="19.00">19</span><span itemprop="priceCurrency" content="BAM">KM</span>
+                    </div>
+                    <a class="btn  btn--xl  btn--rounded  btn--shadow  btn--o-yellow" href="/prodavnica/placanje">Kupi</a>
+                </div>
+            </div>
+
+        </div><!-- /.container -->
+    </div><!-- /.block__inner -->
+</section><!-- /.block -->
+
+
+
+
+<section class="block  block--no-padding">
+    <div class="container">
+
+        <div class="product  product--dark" itemscope itemtype="http://schema.org/Product">
+            <div class="product__image">
+                <img class="img wow fadeInLeft" src="assets/orah.JPG" alt="" itemprop="image">
+            </div>
+            <div class="product__info">
+                <h3 class="product__title" itemprop="name">INDIJSKI ORAH</h3>
+                <div class="product__text" itemprop="description">
+                    <p>Indijski orah je malo zimzeleno drvo visine do najviše 12 metara, porijeklom iz Brazila, a zbog svog ukusnog ploda sada se uzgaja u mnogim tropskim područjima svijeta. Njegovo sjeme ima oblik bubrega i uglavnom se uzgaja u zemljama poput Indije, Kenije i Tanzanije. Veoma je hranjiv i prepun proteina i esencijalnih minerala, uključujući bakar, kalcij, magnezij, željezo, fosfor, kalij i cink. Indijski orah sadrži manje masnoće nego ostali orašasti plodovi.</p>
+                </div>
+                <div class="product__price">
+                    Cijena: <del>39 KM</del>
+                    <span itemprop="price" content="35.00">35</span><span itemprop="priceCurrency" content="BAM">KM</span>
+                </div>
+                <a class="btn  btn--xl  btn--rounded  btn--shadow  btn--orange" href="/prodavnica/placanje">Kupi</a>
+            </div>
+        </div>
+
+        <div class="product  product--dark" itemscope itemtype="http://schema.org/Product">
+            <div class="product__image">
+                <img class="img wow fadeInLeft" src="assets/pistacije.png" alt="" itemprop="image">
+            </div>
+            <div class="product__info">
+                <h3 class="product__title" itemprop="name">PISTACIJE </h3>
+                <div class="product__text" itemprop="description">
+                    <p>Dokazano smanjuju loš holesterol, nakon vrlo kratkog vremena konzumiranja, - konzumiranje pistacija može spriječiti razvoj dijabetesa tip 2 - bogat su izvor vitamina B6, koji je neophodan za proizvodnu hemoglobina - vitamin B6, koji sadrže pistacije povoljno djeluje na živčani sistem - jačaju imunološki sistem - povoljno djeluju na zdravlje očiju - izvor su vitamina E, bitnog za zdravlje kože i kose</p>
+                </div>
+                <div class="product__price">
+                    Cijena: <del>39 KM</del>
+                    <span itemprop="price" content="29.99">29.99</span><span itemprop="priceCurrency" content="BAM">KM</span>
+                </div>
+                <a class="btn  btn--xl  btn--rounded  btn--shadow  btn--orange" href="/prodavnica/placanje">Kupi</a>
+            </div>
+        </div>
+
+        <div class="product  product--dark" itemscope itemtype="http://schema.org/Product">
+            <div class="product__image">
+                <img class="img wow fadeInLeft" src="assets/aronija.jpg" alt="" itemprop="image">
+            </div>
+            <div class="product__info">
+                <h3 class="product__title" itemprop="name">ARONIJA</h3>
+                <div class="product__text" itemprop="description">
+                    <p>Redova upotreba kandirane aronije doprinosi: - sprječavanju bolesti srca i krvnih sudova - regulaciji krvnog pritiska - smanjenju oksidativnog stresa - smanjenju rizika dobijanja kancera - otklanjanju osjećaja hroničnog umora - smanjenju uticaja svakodnevnog stresa - regulisanju probave - poboljšanju imuniteta Kandirana aronija posebno se preporučuje sportistima, osobama izloženim svakodnevnom stresu kao i svima onima koji vode računa o svojoj ishrani.</p>
+                </div>
+                <div class="product__price">
+                    Cijena: <del>49 KM</del>
+                    <span itemprop="price" content="35.00">35</span><span itemprop="priceCurrency" content="BAM">KM</span>
+                </div>
+                <a class="btn  btn--xl  btn--rounded  btn--shadow  btn--orange" href="/prodavnica/placanje">Kupi</a>
+            </div>
+        </div>
+
+        <div class="product  product--dark" itemscope itemtype="http://schema.org/Product">
+            <div class="product__image">
+                <img class="img wow fadeInLeft" src="assets/ananas.jpg" alt="" itemprop="image">
+            </div>
+            <div class="product__info">
+                <h3 class="product__title" itemprop="name">ANANAS FETA</h3>
+                <div class="product__text" itemprop="description">
+                    <p>Ananas je voće koje potiče iz Srednje i Južne Amerike. Danas je veoma rasprostranjen u cijelom svijetu i veoma cijenjen jer spada u jako zdrave, a niskokalorične namirnice. Sadrži preko 15 minerala, a posebno je bogat manganom. Bogat je C vitaminom i vitaminima B grupe. Sadrži enzim bromelin, koji je sličan pepsinu, našem enzimu koji služi za varenje bjelančevina. Djelotvoran je kod detoksikacije organizma, čisti crijeva i pomaže kod mršavljenja. Prevencija je osteoporozi. Kandirani ananas je najbolje konzumirati za doručak, kao dodatak pahuljicama jer sadrži šećer koji nam daje dodatnu energiju, naročito u hladnim, zimskim danima.</p>
+                </div>
+                <div class="product__price">
+                    Cijena: <del>23 KM</del>
+                    <span itemprop="price" content="20.00">20</span><span itemprop="priceCurrency" content="BAM">KM</span>
+                </div>
+                <a class="btn  btn--xl  btn--rounded  btn--shadow  btn--orange" href="/prodavnica/placanje">Kupi</a>
+            </div>
+        </div>
+
+    </div><!-- /.container -->
+</section><!-- /.block -->
+
+
+
+<!-- Delivery and Payments -->
+<section class="block  block--delivery" id="delivery_payment">
+    <div class="block__inner  block__inner--delivery">
+        <div class="container">
+
+            <div class="block__text  text-white">
+                <div class="block__icon">
+                </div>
+                <h2 class="block__title">Dostava &amp; Plačanje</h2>
+                <div>
+                    <p>U današnje vrijeme, dostupnost proizvoda postaje jedan od presudnih faktora prilikom kupovine.
+Pored razumne cijene i kvalitetne hrane, kupci traže da su im svi proizvodi blizu i što je moguće prije na raspolaganju. Upravo zbog toga, našim kupcima omogućavamo da sve proizvode koje kupe putem našeg Online shop-a dobiju unutar 24 radna sata putem brze pošte. Bez obzira na Vašu lokaciju, proizvode šaljemo po istoj cijeni u sve dijelove Bosne i Hercegovine. Sve proizvode pakujemo i predajemo na isporuku unutar istog radnog dana kada je narudžba primljena. Sve proizvode iz naše ponude šaljemo putem brze pošte na Vašu adresu. Plačanje se vrši pri preuzimanju robe.</p>
+                </div>
+            </div><!-- /.block__text -->
+
+        </div><!-- /.container -->
+    </div><!-- /.block__inner -->
+</section><!-- /.block -->
+
+
+
+<!-- Guarantee -->
+<section class="block  block--no-padding" id="guarantee">
+    <div class="container">
+
+        <div class="block__text  block__text--right  text-black">
+            <div class="block__icon">
+            </div>
+            <h2 class="block__title">KONTAKT</h2>
+            <div>
+                <p>Džemala Bijedića 129, 7100 Sarajevo, BiH</p>
+                <p>Kontakt: 062 528 155</p>
+                <p>E-mail: prodaja@butikhrane.ba</p>
+            </div>
+        </div><!-- /.block__text -->
+
+    </div><!-- /.container -->
+</section><!-- /.block -->
+
+
+
+<!-- Reviews -->
+<section class="block  block--reviews" id="reviews">
+    <div class="block__inner  block__inner--reviews">
+        <div class="container">
+
+            <div class="reviews">
+                <div class="block__icon">
+                </div>
+                <h2 class="block__title">Utisci</h2>
+                <div id="reviews_slider">
+                    <div class="slider_item">
+                        <blockquote class="reviews__item" itemscope itemtype="http://schema.org/Review">
+                            <div itemprop="reviewBody">
+                                <p>&ldquo;Jako sam zadovoljna sa web stranicom Butik zdrave hrane. Stranica je funkcionalna te se poštuje rok dostave artikla na kućnu adresu. Sve pohvale!&rdquo;</p>
+                            </div>
+                            <p class="reviews__author" itemprop="author">- Amina Kavazović</p>
+                        </blockquote>
+
+                        <blockquote class="reviews__item" itemscope itemtype="http://schema.org/Review">
+                            <div itemprop="reviewBody">
+                                <p>&ldquo;Sve pohvale za stranicu, brza dostava stiglo u istom danu. Toplo preporučujem!&rdquo;</p>
+                            </div>
+                            <p class="reviews__author" itemprop="author">- Adin Gežo</p>
+                        </blockquote>
+                    </div>
+                </div><!-- /#reviews_slider -->
+            </div><!-- /.reviews -->
+
+        </div><!-- /.container -->
+    </div><!-- /.block__inner -->
+</section><!-- /.block -->
+<footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="footer__social">
+                    <p>Pratite nas</p>
+                    <a class="social  social--circle  social--fb  wow flipInY" data-wow-offset="0" href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+                    <a class="social  social--circle  social--insta  wow flipInY" data-wow-delay=".2s" data-wow-offset="0" href="#" title="Instagram"><i class="fa fa-instagram"></i></a>
+                    <a class="social  social--circle  social--tw  wow flipInY" data-wow-delay=".4s" data-wow-offset="0" href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <address class="footer__contacts">
+                    <p>&copy; 2018 Butik zdrave hrane. Sva prava zadržana.</p>
+                    <p>Adresa: Ulica 24, 71000 Sarajevo, BiH</p>
+                    <p>Telefon: <a href="tel:99123456789">99123456789</a></p>
+                    <p>E-mail: <a href="mailto:info@butikhrane.ba">info@butikhrane.ba</a></p>
+                </address>
+            </div>
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</footer>
+<button class="up" id="js-up" type="button">Up</button>
+
+
